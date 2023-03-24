@@ -1,11 +1,13 @@
 {
-  "name": "nrm",
-  "version": "1.2.5",
+  "name": "nrm-lvj",
+  "version": "1.2.6",
   "description": "NPM registry manager can help you easy and fast switch between different npm registries, now include: cnpm, taobao, nj(nodejitsu), edunpm",
-  "bin": "./cli.js",
+  "bin": {
+    "nrm": "./cli.js"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Pana/nrm.git"
+    "url": "git://github.com/lvjiaxuan/nrm.git"
   },
   "scripts": {
     "star": "npm star nrm",
